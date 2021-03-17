@@ -46,15 +46,15 @@ void palindrom::isPalindrom(string napis) {
 	}
 	napis = polacz;
 	
-	for(int i=0; i<napis.length(); i++) {	//zmienianie na ma³e litery
+	for(int i=0; i<napis.length(); i++) {	//zmienianie na maÅ‚e litery
 		if(napis[i]>64 && napis[i]<90)
 			napis[i]+=32;
 	}
 		
 	int back = napis.length()-1;	//ostatnia litera napisu
-	bool palindrome = true;			//zak³adamy, ¿e napis jest palindromem
-	for(int i=0; i<napis.length()/2 && palindrome; i++) { 	//tylko do po³owy stringu
-		if(napis[i]!=napis[back--])		//back po przedstawieniu zmniejszy siê o 1 z ostatniej na przedostatni¹ itd.
+	bool palindrome = true;			//zakÅ‚adamy, Å¼e napis jest palindromem
+	for(int i=0; i<napis.length()/2 && palindrome; i++) { 	//tylko do poÅ‚owy stringu
+		if(napis[i]!=napis[back--])		//back po przedstawieniu zmniejszy siÄ™ o 1 z ostatniej na przedostatniÅ¡ itd.
 			palindrome = false;
 	}
 	
