@@ -1,0 +1,10 @@
+Zadanie 1:
+ Cwiartka 1: 1339
+ Cwiartka 2: 274
+ Cwiartka 3: 166
+ Cwiartka 4: 218
+ Pozostale: 3
+
+Zadanie 2:158
+
+Zadanie 3:231
